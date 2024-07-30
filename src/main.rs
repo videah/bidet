@@ -6,7 +6,7 @@ use rsubs_lib::{SRT, VTT};
 use structopt::StructOpt;
 
 #[derive(Debug, StructOpt)]
-#[structopt(name = "bidet", about = "Small .ass subtitle conversion utility.")]
+#[structopt(name = "bidet", about = "Small ASS subtitle conversion utility.")]
 struct Opt {
     /// Input subtitle file (can be either .srt or .vtt)
     #[structopt(parse(from_os_str))]

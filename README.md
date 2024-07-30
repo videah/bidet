@@ -4,7 +4,7 @@ Small CLI utility for converting .VTT and .SRT subtitle files to .ASS subtitle f
 
 ```
 bidet 0.1.0
-Small .ass subtitle conversion utility.
+Small ASS subtitle conversion utility.
 
 USAGE:
     bidet [FLAGS] <input> [output]
