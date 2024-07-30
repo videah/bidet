@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.86"
+log = "0.4.22"
+rsubs-lib = "0.3.2"
+simple_logger = "5.0.0"
+structopt = { version = "0.3.26", features = ["color"] }
